@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOH-Dashboard</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/dashboard.css" />
+    <!-- Flaticons CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <img src="/img/only-logo.svg" alt="only logo" />
+        <span class="logo_name"
+          ><img src="/img/logo-name.svg" alt="logo name"
+        /></span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-chart-line"></i>
+            <span class="link_name">Dashboard</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li>
+              <a href="#" class="link_name">Dashboard</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon-links">
+            <a href="#">
+              <i class="fa-solid fa-meteor"></i>
+              <span class="link_name">Master</span>
+            </a>
+            <i class="fa-solid fa-caret-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li>
+              <a href="#" class="link_name">Master</a>
+            </li>
+            <li>
+              <a href="#">User Master</a>
+            </li>
+            <li>
+              <a href="#">Role Type</a>
+            </li>
+            <li>
+              <a href="#">Country</a>
+            </li>
+            <li>
+              <a href="#">State</a>
+            </li>
+            <li>
+              <a href="#">City</a>
+            </li>
+            <li>
+              <a href="#">Location</a>
+            </li>
+            <li>
+              <a href="#">Branch</a>
+            </li>
+            <li>
+              <a href="#">Zone</a>
+            </li>
+            <li>
+              <a href="#">Zone Mapping</a>
+            </li>
+            <li>
+              <a href="#">Reference</a>
+            </li>
+            <li>
+              <a href="#">Tax</a>
+            </li>
+            <li>
+              <a href="#">Car</a>
+            </li>
+            <li>
+              <a href="#">Coupon</a>
+            </li>
+            <li>
+              <a href="#">Subscription</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-phone-volume"></i>
+            <span class="link_name">Enquiry</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li>
+              <a href="#" class="link_name">Enquiry</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon-links">
+            <a href="#">
+              <i class="fa-regular fa-calendar-check"></i>
+              <span class="link_name">Temporary Booking</span>
+            </a>
+            <i class="fa-solid fa-caret-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li>
+              <a href="#" class="link_name">Temporary Booking</a>
+            </li>
+            <li>
+              <a href="#">Place Booking</a>
+            </li>
+            <li>
+              <a href="#">Complaint</a>
+            </li>
+            <li>
+              <a href="#">View Booking</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+            <li>
+              <a href="#">Client Feedback</a>
+            </li>
+            <li>
+              <a href="#">Guest Booking</a>
+            </li>
+            <li>
+              <a href="#">On-Off Duty Drivers</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon-links">
+            <a href="#">
+              <i class="fa-solid fa-user-check"></i>
+              <span class="link_name">Driver Management</span>
+            </a>
+            <i class="fa-solid fa-caret-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li>
+              <a href="#" class="link_name">Driver Management</a>
+            </li>
+            <li>
+              <a href="#">View Driver</a>
+            </li>
+            <li>
+              <a href="#">Add Driver</a>
+            </li>
+            <li>
+              <a href="#">Driver History</a>
+            </li>
+            <li>
+              <a href="#">Refer Driver</a>
+            </li>
+            <li>
+              <a href="#">Driver Leave</a>
+            </li>
+            <li>
+              <a href="#">Driver Balance</a>
+            </li>
+            <li>
+              <a href="#">Flush Device</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon-links">
+            <a href="#">
+              <i class="fa-solid fa-user-tie"></i>
+              <span class="link_name">Client Management</span>
+            </a>
+            <i class="fa-solid fa-caret-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li>
+              <a href="#" class="link_name">Client Management</a>
+            </li>
+            <li>
+              <a href="#">View Client</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon-links">
+            <a href="#">
+              <i class="fa-solid fa-book"></i>
+              <span class="link_name">Report</span>
+            </a>
+            <i class="fa-solid fa-caret-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li>
+              <a href="#" class="link_name">Report</a>
+            </li>
+            <li>
+              <a href="#">Branchwise Business</a>
+            </li>
+            <li>
+              <a href="#">Client Location Wise</a>
+            </li>
+            <li>
+              <a href="#">Enquiry Report</a>
+            </li>
+            <li>
+              <a href="#">Night Client SMS</a>
+            </li>
+            <li>
+              <a href="#">Reference Report</a>
+            </li>
+            <li>
+              <a href="#">Registration Report</a>
+            </li>
+            <li>
+              <a href="#">Driver Payment Report</a>
+            </li>
+            <li>
+              <a href="#">Refer Driver</a>
+            </li>
+            <li>
+              <a href="#">Cancellation Report</a>
+            </li>
+            <li>
+              <a href="#">Driver Status Report</a>
+            </li>
+            <li>
+              <a href="#">Driver Report Card</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon-links">
+            <a href="#">
+              <i class="fa-solid fa-gear"></i>
+              <span class="link_name">Setting</span>
+            </a>
+            <i class="fa-solid fa-caret-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li>
+              <a href="#" class="link_name">Setting</a>
+            </li>
+            <li>
+              <a href="#">Change Password</a>
+            </li>
+            <li>
+              <a href="#">Logout</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="home-content">
+        <i class="fa-solid fa-bars"></i>
+        <span class="text">Dashboard</span>
+      </div>
+    </section>
+    <section class="main-section">
+      <div class="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores placeat
+        ea minima. Doloremque quibusdam molestiae voluptate quaerat tempore
+        provident nemo recusandae velit. Magnam, quod quaerat facere repellat
+        vero quia aspernatur iure ex. Delectus error laudantium accusantium,
+        mollitia deleniti labore placeat quis voluptate soluta quasi corporis
+        facilis ratione sunt non explicabo amet iste modi iure, recusandae, a
+        veniam quo fugit culpa doloribus! Recusandae fugiat soluta dignissimos
+        eius cupiditate autem esse, rerum adipisci harum nam dolorum laboriosam?
+        Consequatur blanditiis asperiores, repellat nostrum molestiae sit hic,
+        nobis sint qui id quis, laudantium ut! Mollitia delectus esse earum odio
+        quasi dolor inventore magni a, veniam ipsum dolore quia ducimus nostrum
+        cum impedit aliquam voluptatibus porro illo? Sequi ipsam cumque
+        veritatis a iste, reprehenderit est voluptatibus, esse cupiditate
+        necessitatibus ab consectetur maiores debitis vel amet magnam aut
+        voluptas eum assumenda libero ipsum explicabo, illo officiis. Dolorum
+        molestiae tempore sed repellendus consectetur quam sequi. Quibusdam quod
+        error obcaecati minus, pariatur laboriosam necessitatibus illo, aliquid
+        asperiores rerum voluptas non dolor dolores numquam labore enim omnis
+        ullam expedita veritatis quidem quae. Odio, quibusdam magni. Itaque,
+        asperiores a veniam culpa provident corporis magnam iste molestias
+        aspernatur error velit odit quae quam aliquam beatae ipsam
+        necessitatibus rerum debitis perspiciatis. Perferendis blanditiis
+        repellat sunt sapiente eaque possimus ipsum ad totam. Obcaecati facilis
+        nisi et ipsa ipsum sit saepe labore possimus id sed esse asperiores quod
+        adipisci maiores quas amet maxime molestiae repellat inventore cum
+        fugiat, necessitatibus laboriosam magni at? Obcaecati, dolor
+        perspiciatis? Nam quae cupiditate itaque. Odit magnam voluptatem
+        explicabo, sit aut unde ut et blanditiis, rerum cum suscipit fugit ipsa
+        iste saepe harum. Vero debitis exercitationem cumque eligendi autem quis
+        cum animi rem, esse sint. Commodi pariatur porro deserunt inventore
+        nostrum sit temporibus aliquid iure qui natus, quibusdam, quis
+        exercitationem minus quam molestias impedit maxime necessitatibus? Vero
+        sint iure accusantium nesciunt reprehenderit iste voluptates eius cumque
+        culpa adipisci maxime rerum, sunt et at incidunt nulla, deserunt
+        molestiae delectus sed. Quia voluptatem qui a numquam deserunt, nisi
+        delectus officia sint? Neque facilis delectus laudantium debitis nulla
+        eligendi numquam ipsam, animi tenetur officiis veniam modi, nostrum odit
+        libero accusamus itaque quibusdam dignissimos voluptate molestiae ex
+        consequatur? Inventore, animi a odio odit deserunt, perferendis aperiam
+        voluptatibus, placeat illum numquam at! Est ex minus quod alias eligendi
+        voluptatem consequatur quos, nesciunt, nobis aliquam quae repudiandae
+        nemo tenetur similique culpa sint fuga maxime neque aspernatur minima,
+        ullam eaque quasi ea totam. Quisquam illo eveniet harum nulla
+        blanditiis, culpa consequuntur vero natus corporis adipisci tempora
+        deleniti magnam quas commodi. Qui sed velit cum vitae possimus quas
+        praesentium placeat vero illum sunt magni officia voluptatum, excepturi
+        quisquam labore voluptas mollitia beatae fugiat laboriosam sint eaque
+        numquam quia veniam nisi! Repudiandae natus temporibus minus, assumenda,
+        debitis vitae nobis optio error, est iure ab earum? Reiciendis, magni
+        amet tenetur sit consectetur maiores animi modi inventore eveniet dolor
+        molestias voluptatem nostrum nihil delectus totam aliquid quisquam,
+        alias harum quae culpa! Repellendus nesciunt neque totam sunt commodi,
+        aliquid accusamus sequi, enim corrupti vitae ipsum. Quos labore
+        laboriosam harum sapiente totam culpa quas tenetur enim ipsa, ut
+        voluptate iure a vitae dolorum illum adipisci. Saepe vitae tempora
+        officiis quod dignissimos exercitationem dolor labore hic reprehenderit
+        quos, voluptatibus tempore harum eveniet, enim deleniti optio esse culpa
+        perspiciatis, non nihil eum magnam porro. Inventore ducimus dolorem eius
+        dicta animi est. Fugiat magni quis dignissimos dolores veritatis, magnam
+        quam veniam consectetur quaerat suscipit reiciendis. Unde quia veritatis
+        esse quos corrupti, ratione impedit repellendus exercitationem qui
+        earum? Voluptates, dolor, commodi aut delectus natus debitis possimus ab
+        iusto sunt, reiciendis similique omnis labore consequuntur. Inventore
+        quam sequi, labore quibusdam reprehenderit qui, cumque doloremque, porro
+        laborum molestias deleniti earum! Officiis ab natus modi? Qui explicabo
+        tempora eius porro cupiditate, totam vel! Totam est nihil dolores
+        placeat nisi quam ad cum exercitationem laborum voluptatibus animi
+        quidem assumenda, mollitia, nulla consequatur rem quasi eveniet quaerat!
+        Cum sed in omnis placeat voluptatibus vero corrupti unde cumque veniam
+        maxime animi vitae iure eos, numquam delectus, odio explicabo laborum
+        reprehenderit totam quidem. Iure assumenda vitae fugit facilis
+        laboriosam incidunt mollitia doloremque neque? Natus accusantium,
+        excepturi reiciendis id culpa amet aut voluptates, ipsam deleniti odio
+        vitae inventore! Deserunt maxime, quis exercitationem possimus
+        asperiores fugit repellat ab magnam sed distinctio animi officiis id,
+        ex, cupiditate corrupti eligendi assumenda! Illum aperiam alias possimus
+        suscipit sint dignissimos officia aspernatur modi doloribus, saepe
+        veniam quod numquam tempore provident laudantium exercitationem.
+        Voluptatibus ad neque quam voluptates pariatur ipsum labore explicabo
+        est rerum? Sapiente non animi reiciendis, repellat recusandae molestias
+        suscipit veniam modi atque illo nemo possimus odit maxime assumenda quis
+        dolore. Porro facere dolore amet atque neque quos quisquam doloremque
+        officia fugit saepe? Maiores corrupti neque atque dolore. Aut,
+        consequatur aperiam quo sunt nostrum reiciendis veritatis aliquid ipsum
+        sit error inventore necessitatibus odit quaerat magni hic facilis quod
+        enim et impedit consectetur quidem praesentium deleniti. Enim, explicabo
+        veniam. At modi officia saepe autem ullam enim ex. Beatae, velit facere?
+        Obcaecati doloribus ab, consequuntur non praesentium adipisci incidunt,
+        corporis a animi distinctio, alias ipsa illum. Cupiditate voluptatibus
+        quidem facere. Obcaecati repellat dolores doloribus saepe mollitia
+        recusandae magnam, perferendis exercitationem iure, pariatur illo autem
+        vitae maxime laborum ducimus sed a veniam tempore vel aliquid minima!
+        Eaque accusantium doloribus harum alias aspernatur et dignissimos
+        dolores vero rerum. Alias architecto praesentium eum voluptatibus
+        corrupti, veritatis repellendus rem, atque omnis, vero delectus
+        doloribus! Unde perspiciatis id expedita corporis reiciendis molestias
+        nisi cupiditate maxime laboriosam neque ducimus maiores perferendis, in
+        quo voluptas, sed modi, aut commodi asperiores tenetur quae inventore
+        quia? Consectetur laborum in, natus velit temporibus dolor deserunt
+        impedit aspernatur dolore porro at optio. Nesciunt cumque, officiis
+        quibusdam aspernatur fugiat quae doloribus earum ad at eius voluptatibus
+        perspiciatis amet consectetur quisquam quis, repellat reprehenderit,
+        adipisci nulla dolorum a quia suscipit quo! Incidunt corporis cumque ad
+        corrupti beatae dignissimos illum! Quisquam accusantium nulla assumenda
+        commodi maxime rem ut voluptatibus quod perspiciatis, nesciunt,
+        explicabo ipsa saepe a tenetur facere. Laborum facere nihil et impedit.
+        Minus itaque deleniti et nam, ea asperiores at dolorem repellat commodi
+        tempore soluta ad, officiis, maiores voluptatum est sit repellendus
+        totam sed.
+      </div>
+    </section>
+    <script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e) => {
+          let arrowParent = e.target.parentElement.parentElement;
+          arrowParent.classList.toggle("showMenu");
+        });
+      }
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".fa-bars");
+      console.log(sidebarBtn);
+      sidebarBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+.sidebar {
+  width: 15.875rem;
+}
+.accordion {
+  --bs-accordion-btn-icon-width: 14px !important;
+}
+.accordion ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.accordion ul li a {
+  display: block;
+  text-decoration: none;
+  color: #212529;
+  padding: 8px 40px;
+}
+.accordion ul li a:hover {
+  background: rgba(255, 206, 40,0.2);
+  border-radius: 4px;
+}
+.accordion-body {
+  padding: 0px !important;
+}
+.accordion-button:focus {
+  border-right: 3px solid #ffce28;
+  border-color: #ffce28 !important;
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  color: #21252a !important;
+  background-color: #fffcf3 !important;
+}
