@@ -150,6 +150,8 @@ body {
   display: block;
   pointer-events: none;
   transition: 0s;
+  max-height: 200px;
+  overflow: scroll;
 }
 .sidebar.close .nav-links li:hover .sub-menu {
   top: 0;
