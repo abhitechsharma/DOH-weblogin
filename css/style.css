@@ -63,7 +63,8 @@ body {
 .sidebar.close .nav-links {
   overflow: visible;
 }
-.sidebar .nav-links::-webkit-scrollbar {
+.sidebar .nav-links::-webkit-scrollbar,
+.sidebar .nav-links .sub-menu::-webkit-scrollbar {
   display: none;
 }
 .sidebar .nav-links li {
@@ -152,6 +153,7 @@ body {
   transition: 0s;
   max-height: 200px;
   overflow: scroll;
+  background: #eff2fa;
 }
 .sidebar.close .nav-links li:hover .sub-menu {
   top: 0;
